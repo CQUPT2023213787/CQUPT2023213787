@@ -1,3 +1,4 @@
+# 蓝山考核
 # 第一部分  
 ## 1.反向传播的推导：  
 ![AF7660C8D8EE59CB088AE59F22366B8D](https://github.com/user-attachments/assets/089f60de-2e09-42a5-829d-11533da49d22)
