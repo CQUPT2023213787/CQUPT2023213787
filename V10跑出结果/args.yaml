@@ -1,6 +1,6 @@
 task: detect
 mode: train
-model: ultralytics/cfg/models/v10/yolov10n.yaml
+model: yolov10s.yaml
 data: ultralytics/cfg/datasets/helmet.yaml
 epochs: 300
 time: null
@@ -9,12 +9,11 @@ batch: 1
 imgsz: 640
 save: true
 save_period: -1
-val_period: 1
 cache: false
-device: '0'
-workers: 8
+device: 0
+workers: 0
 project: null
-name: train_v107
+name: train7
 exist_ok: false
 pretrained: true
 optimizer: auto
@@ -104,4 +103,4 @@ erasing: 0.4
 crop_fraction: 1.0
 cfg: null
 tracker: botsort.yaml
-save_dir: runs\detect\train_v107
+save_dir: runs\detect\train7
