@@ -4,7 +4,7 @@ import torch
 from torch import nn, optim
 from scipy.sparse import coo_matrix, lil_matrix, csr_matrix
 
-# 数据读取和预处理部分保持不变
+# 数据读取和预处理部分
 ratings_df = pd.read_csv(r"D:\学习资料D盘专属\2024暑假\答辩\ez_douban\ratings.csv")
 movies_df = pd.read_csv(r"D:\学习资料D盘专属\2024暑假\答辩\ez_douban\movies.csv")
 
